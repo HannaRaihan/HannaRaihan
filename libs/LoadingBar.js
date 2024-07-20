@@ -15,6 +15,13 @@ class LoadingBar {
         const container = document.createElement("div");
         container.style.textAlign = 'center';
         
+        const welcomeText = document.createElement("div");
+        welcomeText.innerText = "Welcome to a VR experience";
+        welcomeText.style.color = '#fff';
+        welcomeText.style.marginBottom = '20px';
+        welcomeText.style.fontSize = '24px';
+        container.appendChild(welcomeText);
+        
         const loadingText = document.createElement("div");
         loadingText.innerText = "Loading...";
         loadingText.style.color = '#fff';
