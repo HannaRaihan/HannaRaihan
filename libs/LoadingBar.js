@@ -22,6 +22,12 @@ class LoadingBar {
         welcomeText.style.fontSize = '24px';
         container.appendChild(welcomeText);
         
+        const loadingText = document.createElement("div");
+        loadingText.innerText = "Loading...";
+        loadingText.style.color = '#fff';
+        loadingText.style.marginBottom = '10px';
+        loadingText.style.fontSize = '20px';
+        container.appendChild(loadingText);
         
         const barBase = document.createElement("div");
         barBase.style.background = 'linear-gradient(to right, #aaa, #ddd)'; // Gradient background
