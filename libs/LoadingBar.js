@@ -30,7 +30,7 @@ class LoadingBar {
         container.appendChild(loadingText);
         
         const barBase = document.createElement("div");
-        barBase.style.background = 'linear-gradient(to right, #aaa, #ddd)'; // Gradient background
+        barBase.style.background = '#aaa'; // Changed to solid blue color
         barBase.style.width = '50%';
         barBase.style.minWidth = '250px';
         barBase.style.borderRadius = '15px';
@@ -39,7 +39,7 @@ class LoadingBar {
         container.appendChild(barBase);
         
         const bar = document.createElement("div");
-        bar.style.background = 'linear-gradient(to right, #22a, #44d)'; // Gradient color
+        bar.style.background = '#44d'; // Changed to solid blue color
         bar.style.width = '0';
         bar.style.borderRadius = '15px';
         bar.style.height = '100%';
